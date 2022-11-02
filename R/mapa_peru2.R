@@ -12,7 +12,7 @@ mapa_peru2 <- function(xlim=c(-86,-70), ylim=c(-21, -3), xlab = "", ylab = "",
   ss <- sapply(abs(seq(ylim[1],ylim[2],by = 2)), function(x) as.expression(substitute(A~degree~"S",list(A = as.name(x)))))
               
   axis.Lon <- ww
-  axis.Lat <- ss)
+  axis.Lat <- ss
 
   Encoding(axis.Lon) <- "UTF-8"
   Encoding(axis.Lat) <- "UTF-8"
