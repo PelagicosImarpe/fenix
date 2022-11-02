@@ -14,8 +14,8 @@ mapa_peru2 <- function(xlim=c(-86,-70), ylim=c(-21, -3), xlab = "", ylab = "",
   axis.Lon <- ww
   axis.Lat <- ss
 
-  Encoding(axis.Lon) <- "UTF-8"
-  Encoding(axis.Lat) <- "UTF-8"
+  #Encoding(axis.Lon) <- "UTF-8"
+  #Encoding(axis.Lat) <- "UTF-8"
 
   xlim2 <- xlim
   if(n_perfil > 1){
