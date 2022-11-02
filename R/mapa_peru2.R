@@ -8,8 +8,8 @@ mapa_peru2 <- function(xlim=c(-86,-70), ylim=c(-21, -3), xlab = "", ylab = "",
   require(mapdata)
   options(warn=-1)
   #x11()
-  axis.Lon <- paste(abs(seq(xlim[1],xlim[2],by = 2)),"°W")
-  axis.Lat <- paste(abs(seq(ylim[1],ylim[2],by = 2)),"°S")
+  axis.Lon <- paste(abs(seq(xlim[1],xlim[2],by = 2)), expression(~degree~"W"))
+  axis.Lat <- paste(abs(seq(ylim[1],ylim[2],by = 2)), expression(~degree~"S"))
 
   Encoding(axis.Lon) <- "UTF-8"
   Encoding(axis.Lat) <- "UTF-8"
